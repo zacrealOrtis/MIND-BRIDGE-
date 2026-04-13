@@ -969,6 +969,8 @@ input, textarea, select {
 .login-card {
     flex: 1.2;
     padding: 50px;
+  width: 100px;
+  height:50px;
 }
 
 .form-group {
