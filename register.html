@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up | Mind Bridge</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+
+<body class="login-page">
+    
+
+    <div class="login-container">
+        
+        <div class="login-info">
+            <h1>Join Mind Bridge</h1>
+            
+             <ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="aboutus.html">About</a></li>
+<li><a href="resources.html">Resources</a></li>
+<li><a href="Findhelp.html">Find Help</a></li>
+<li><a href="Contact.html">Contact</a></li>
+</ul>
+
+            <p>Create an account to track your mood, access peer support, and find local resources.</p>
+            <img src="images/bridge.jpg" alt="Calm" style="height: 50%; width: 100%; border-radius: 10px;">
+            
+                </div>
+        </div>
+
+        <div class="login-card">
+            <h2>Create Account</h2>
+            <p>Your journey to wellness starts here.</p>
+            
+            <form id="registerForm" onsubmit="event.preventDefault(); registerUser();">
+                <div class="form-group">
+                    <label>Preferred Username (Anonymous)</label>
+                    <input type="text" id="regUsername" placeholder="e.g. Ortisug" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Email Address</label>
+                    <input type="email" id="regEmail" placeholder="Enter your email" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" id="regPassword" placeholder="Create a strong password" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Confirm Password</label>
+                    <input type="password" id="confirmPassword" placeholder="Repeat your password" required>
+                </div>
+
+                <button type="submit" class="btn login-btn">Sign Up Now</button>
+                
+                <div class="form-footer">
+                    <span>Already have an account? </span>
+                    <a href="login.html">Login Here</a>
+                    </div>            
+                </div>
+            </form>
+            
+        </div>
+    </div>
+    <script src="js/script.js"></script>   
+</body>
+  <!-- - - - - - - - -  Footer - - - - - - - -  -->
+  <footer id="footer" class="footer">
+
+    <div class="container mt-4">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Group Four</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="#">Group Four</a>
+      </div>
+    </div>
+
+  </footer>
+  <!-- End Footer -->
+</html>
