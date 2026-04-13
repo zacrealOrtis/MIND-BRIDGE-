@@ -5,7 +5,7 @@ function loginUser() {
     
     if (email !== "" && password !== "") {
         alert("Login Successful! Welcome to Mind Bridge.");
-        window.location.href = "dashboard.html";
+        window.location.href = "Dashboard.html";
     } else {
         alert("Please enter both email and password.");
     }
