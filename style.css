@@ -970,7 +970,8 @@ input, textarea, select {
     flex: 1.2;
     padding: 50px;
   align-items: center;
-  
+  width: 150px;
+  height: 80px;
 }
 
 .form-group {
